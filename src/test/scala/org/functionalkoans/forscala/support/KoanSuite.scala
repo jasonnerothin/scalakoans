@@ -19,38 +19,38 @@ trait KoanSuite extends FunSuite with ShouldMatchers {
     override def toString = "___"
   }
 
-  private class ReportToTheMaster(other: Reporter) extends Reporter {
-    var failed = false
-    def failure(event: Master.HasTestNameAndSuiteName) {
-      failed = true
-      info("*****************************************")
-      info("*****************************************")
-      info("")
-      info("")
-      info("")
-      info(Master.studentFailed(event))
-      info("")
-      info("")
-      info("")
-      info("*****************************************")
-      info("*****************************************")
-    }
+//  private class ReportToTheMaster(other: Reporter) extends Reporter {
+//    var failed = false
+//    def failure(event: Master.HasTestNameAndSuiteName) {
+//      failed = true
+//      info("*****************************************")
+//      info("*****************************************")
+//      info("")
+//      info("")
+//      info("")
+//      info(Master.studentFailed(event))
+//      info("")
+//      info("")
+//      info("")
+//      info("*****************************************")
+//      info("*****************************************")
+//    }
+//
+//    def apply(event: Event) {
+//      event match {
+//        case e: TestIgnored => failure(event.asInstanceOf[Master.HasTestNameAndSuiteName])
+//        case e: TestFailed => failure(event.asInstanceOf[Master.HasTestNameAndSuiteName])
+//        case e: TestPending => failure(event.asInstanceOf[Master.HasTestNameAndSuiteName])
+//        case _ => other(event)
+//      }
+//
+//    }
+//  }
 
-    def apply(event: Event) {
-      event match {
-        case e: TestIgnored => failure(event.asInstanceOf[Master.HasTestNameAndSuiteName])
-        case e: TestFailed => failure(event.asInstanceOf[Master.HasTestNameAndSuiteName])
-        case e: TestPending => failure(event.asInstanceOf[Master.HasTestNameAndSuiteName])
-        case _ => other(event)
-      }
-
-    }
-  }
-
-  protected override def runTest(testName: String, reporter: Reporter, stopper: Stopper, configMap: Map[String, Any], tracker: Tracker) {
-    if (!Master.studentNeedsToMeditate) {
-      super.runTest(testName, new ReportToTheMaster(reporter), Master, configMap, tracker)
-    }
-  }
+//  protected override def runTest(testName: String, reporter: Reporter, stopper: Stopper, configMap: Map[String, Any], tracker: Tracker) {
+//    if (!Master.studentNeedsToMeditate) {
+//      super.runTest(testName, new ReportToTheMaster(reporter), Master, configMap, tracker)
+//    }
+//  }
 
 }
