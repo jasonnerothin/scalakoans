@@ -11,7 +11,7 @@ trait KoanSuite extends FunSuite with ShouldMatchers {
 
   def meditate() = pending
 
-  def  __ : Matcher[Any] = {
+  def  __ : Matcher[Nothing] = {
     throw new TestPendingException
   }
 
