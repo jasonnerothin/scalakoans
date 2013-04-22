@@ -4,7 +4,7 @@ name := "Scala Koans"
 
 version := "1.0"
 
-scalaVersion := "2.9.2"
+scalaVersion := "2.10.0"
 
 traceLevel := -1
 
@@ -29,5 +29,5 @@ offline := true
 retrieveManaged := true
 
 libraryDependencies ++= Seq(
-	"org.scalatest" %% "scalatest" % "1.8" % "test" withSources() withJavadoc()
+	"org.scalatest" %% "scalatest" % "1.9.1" % "test" withSources() withJavadoc()
 )

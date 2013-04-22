@@ -2,3 +2,5 @@
 .idea
 *.class
 *.ipr
+target
+lib_managed
