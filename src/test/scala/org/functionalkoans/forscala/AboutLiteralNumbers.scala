@@ -11,21 +11,21 @@ class AboutLiteralNumbers extends KoanSuite with ShouldMatchers {
     val a = 2
     val b = 31
     val c = 0x30F
-    val d = 077
+//    val d = 077  // leading zeroes meaning octal are deprecated
     val e = 0
     val f = -2
     val g = -31
     val h = -0x30F
-    val i = -077
+//    val i = -077
     a should be(1+1)
     b should be(29+2)
     c should be(783) //Hint: 30F = 783
-    d should be(63) //Hint: 077 = 63
+//    d should be(63) //Hint: 077 = 63
     e should be(0)
     f should be(-2)
     g should be(-31)
     h should be(-783) //Hint: 30F = 783
-    i should be(-63) //Hint: 077 = 63
+//    i should be(-63) //Hint: 077 = 63
   }
 
   koan("""Long Literals are 64 bit, are specified by appending an L or l at the end;
@@ -33,22 +33,22 @@ class AboutLiteralNumbers extends KoanSuite with ShouldMatchers {
     val a = 2L
     val b = 31L
     val c = 0x30fl
-    val d = 077L
+//    val d = 077L
     val e = 0L
     val f = -2l
     val g = -31L
     val h = -0x30FL
-    val i = -077L
+//    val i = -077L
 
     a should be(2)
     b should be(31)
     c should be(783) //Hint: 30F = 783
-    d should be(63) //Hint: 077 = 63
+//    d should be(63) //Hint: 077 = 63
     e should be(0)
     f should be(-2)
     g should be(-31)
     h should be(-783) //Hint: 30F = 783
-    i should be(-63) //Hint: 077 = 63
+//    i should be(-63) //Hint: 077 = 63
   }
 
   koan("""Float and Double Literals are IEEE 754 for specific,
@@ -87,7 +87,7 @@ class AboutLiteralNumbers extends KoanSuite with ShouldMatchers {
     val str = "3.0"
     3.0.toString should be(str)
     3.toString should be("3")
-    (3. toString) should be(str)
+//    (3. toString) should be(str) // deprecated
     (3.0 toString) should be(str)
     3d.toString should be(str)
   }
