@@ -5,6 +5,7 @@ import support.KoanSuite
 import java.lang.Double
 import java.lang.Float
 
+// DONE
 class AboutLiteralNumbers extends KoanSuite with ShouldMatchers {
 
   koan("Integer Literals are 32-bit and can be created from decimal, octal, or hexadecimal") {
