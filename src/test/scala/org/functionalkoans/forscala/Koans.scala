@@ -31,7 +31,7 @@ class Koans extends Suite {
     new AboutUniformAccessPrinciple, //
     new AboutLiteralBooleans, //
     new AboutLiteralNumbers, //
-    new AboutLiteralStrings,
+    new AboutLiteralStrings, //
     new AboutPartialFunctions,
     new AboutPartiallyAppliedFunctions,
     new AboutIterables,
