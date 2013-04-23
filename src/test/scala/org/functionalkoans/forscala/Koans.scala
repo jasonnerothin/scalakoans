@@ -20,7 +20,7 @@ class Koans extends Suite {
     new AboutCaseClasses, //
     new AboutOptions, //
     new AboutSequencesAndArrays, //
-    new AboutNamedAndDefaultArguments,
+    new AboutNamedAndDefaultArguments, // That last one's a dooozy
     new AboutForExpressions, //
     new AboutEmptyValues, //
     new AboutParentClasses,
