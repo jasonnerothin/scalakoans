@@ -18,8 +18,8 @@ class Koans extends Suite {
     new AboutFormatting, //
     new AboutPatternMatching, //
     new AboutCaseClasses, //
-    new AboutOptions,
-    new AboutSequencesAndArrays,
+    new AboutOptions, //
+    new AboutSequencesAndArrays, //
     new AboutNamedAndDefaultArguments,
     new AboutForExpressions, //
     new AboutEmptyValues, //
