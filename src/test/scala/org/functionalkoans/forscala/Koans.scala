@@ -5,32 +5,32 @@ import support.Master
 
 class Koans extends Suite {
   override def nestedSuites = List(
-    new AboutAsserts,
-    new AboutValAndVar,
-    new AboutClasses,
-    new AboutRange,
-    new AboutTuples,
-    new AboutLists,
-    new AboutMaps,
-    new AboutSets,
-    new AboutMutableMaps,
-    new AboutMutableSets,
-    new AboutFormatting,
-    new AboutPatternMatching,
-    new AboutCaseClasses,
+    new AboutAsserts, //
+    new AboutValAndVar, //
+    new AboutClasses, //
+    new AboutRange, //
+    new AboutTuples, //
+    new AboutLists, //
+    new AboutMaps, //
+    new AboutSets, //
+    new AboutMutableMaps, //
+    new AboutMutableSets, //
+    new AboutFormatting, //
+    new AboutPatternMatching, //
+    new AboutCaseClasses, //
     new AboutOptions,
     new AboutSequencesAndArrays,
     new AboutNamedAndDefaultArguments,
-    new AboutForExpressions,
-    new AboutEmptyValues,
+    new AboutForExpressions, //
+    new AboutEmptyValues, //
     new AboutParentClasses,
     new AboutTypeSignatures,
     new AboutTraits,
     new AboutPreconditions,
-    new AboutHigherOrderFunctions,
+    new AboutHigherOrderFunctions, //
     new AboutUniformAccessPrinciple,
     new AboutLiteralBooleans,
-    new AboutLiteralNumbers,
+    new AboutLiteralNumbers, //
     new AboutLiteralStrings,
     new AboutPartialFunctions,
     new AboutPartiallyAppliedFunctions,
@@ -39,11 +39,11 @@ class Koans extends Suite {
     new AboutInfixPrefixAndPostfixOperators,
     new AboutInfixTypes,
     new AboutImplicits,
-    new AboutManifests,
+    new AboutManifests, //
     new AboutTypeVariance,
-    new AboutEnumerations,
-    new AboutConstructors
-    
+    new AboutEnumerations, //
+    new AboutConstructors //
+
   )
 
   override def run(testName: Option[String], reporter: Reporter, stopper: Stopper, filter: Filter,
