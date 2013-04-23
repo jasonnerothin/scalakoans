@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40cd2686-fff2-49c0-b698-3bc08d690576" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutParentClasses.scala" afterPath="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutParentClasses.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutTypeSignatures.scala" afterPath="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutTypeSignatures.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/Koans.scala" afterPath="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/Koans.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -12,7 +12,7 @@
     <file path="/AboutTraits.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366653687922" ignored="false" />
     <file path="/AboutAsserts.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366735179107" ignored="false" />
     <file path="/AboutIterables.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366654132438" ignored="false" />
-    <file path="/Dummy.txt" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366750344295" ignored="false" />
+    <file path="/Dummy.txt" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366750651696" ignored="false" />
     <file path="/KoanSuite.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366734156730" ignored="false" />
     <file path="/AboutLiteralNumbers.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366729035008" ignored="false" />
     <file path="$USER_HOME$/scratch/trunk/MPSModel/src/main/java/com/p1s/mps/util/Constants.java" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366725816732" ignored="false" />
@@ -48,6 +48,7 @@
     <file path="/AboutSequencesAndArrays.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366749878538" ignored="false" />
     <file path="/AboutNamedAndDefaultArguments.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366750311555" ignored="false" />
     <file path="/AboutParentClasses.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366750635470" ignored="false" />
+    <file path="/AboutTypeSignatures.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366751133747" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,17 +120,19 @@
       <file leaf-file-name="Koans.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/Koans.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="30" selection-start="706" selection-end="706" vertical-scroll-proportion="0.5332168">
+            <state line="26" column="31" selection-start="738" selection-end="738" vertical-scroll-proportion="0.5611888">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutParentClasses.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutParentClasses.scala">
+      <file leaf-file-name="AboutTypeSignatures.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutTypeSignatures.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="7" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="5" column="7" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#38#62#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutManifests.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutTypeVariance.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutValAndVar.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutRange.scala" />
@@ -168,6 +170,7 @@
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutSequencesAndArrays.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutNamedAndDefaultArguments.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutParentClasses.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutTypeSignatures.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/Koans.scala" />
       </list>
     </option>
@@ -343,31 +346,7 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.AboutParentClasses">
-    <configuration default="false" name="AboutPatternMatching" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.functionalkoans.forscala.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="scalaCoverage" />
-      <module name="dmarsh-scalakoans" />
-      <setting name="path" value="org.functionalkoans.forscala.AboutPatternMatching" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Cover" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Cover" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.AboutTypeSignatures">
     <configuration default="false" name="AboutOptions" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -444,6 +423,28 @@
       <extension name="scalaCoverage" />
       <module name="dmarsh-scalakoans" />
       <setting name="path" value="org.functionalkoans.forscala.AboutParentClasses" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AboutTypeSignatures" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.functionalkoans.forscala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="scalaCoverage" />
+      <module name="dmarsh-scalakoans" />
+      <setting name="path" value="org.functionalkoans.forscala.AboutTypeSignatures" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -570,19 +571,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.AboutPatternMatching" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.AboutOptions" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.AboutSequencesAndArrays" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.AboutNamedAndDefaultArguments" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.AboutParentClasses" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.AboutOptions" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.AboutSequencesAndArrays" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.AboutNamedAndDefaultArguments" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.AboutParentClasses" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.AboutTypeSignatures" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.AboutParentClasses" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.AboutNamedAndDefaultArguments" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.AboutSequencesAndArrays" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.AboutOptions" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.AboutPatternMatching" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.AboutTypeSignatures" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.AboutParentClasses" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.AboutNamedAndDefaultArguments" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.AboutSequencesAndArrays" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.AboutOptions" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -742,7 +743,11 @@
       <created>1366750349693</created>
       <updated>1366750349693</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="simple, really...">
+      <created>1366750656567</created>
+      <updated>1366750656567</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -820,7 +825,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="a real doozy" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple, really..." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -834,7 +839,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Done with AboutClasses" />
     <MESSAGE value="Making it harder to miss incomplete tests" />
     <MESSAGE value="Fixing an incomplete test." />
     <MESSAGE value="Sad to learn that multiple constructors are allowed." />
@@ -859,6 +863,7 @@
     <MESSAGE value="commenting my progress" />
     <MESSAGE value="arrays are sooo silly" />
     <MESSAGE value="a real doozy" />
+    <MESSAGE value="simple, really..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -868,20 +873,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutRange.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="197" selection-end="197" vertical-scroll-proportion="0.16647398">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutTuples.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="62" selection-start="489" selection-end="489" vertical-scroll-proportion="0.3884393">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutLists.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="22" selection-start="313" selection-end="313" vertical-scroll-proportion="0.24046242">
@@ -973,9 +964,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/bin/scala-2.10.0-RC2/src/scala-library-src.jar!/scala/Predef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="7" selection-start="4161" selection-end="4161" vertical-scroll-proportion="0.33273703">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutTypeSignatures.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="7" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#38#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/Koans.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="30" selection-start="706" selection-end="706" vertical-scroll-proportion="0.5332168">
+        <state line="26" column="31" selection-start="738" selection-end="738" vertical-scroll-proportion="0.5611888">
           <folding />
         </state>
       </provider>
