@@ -25,7 +25,7 @@ class Koans extends Suite {
     new AboutEmptyValues, //
     new AboutParentClasses, //
     new AboutTypeSignatures, //
-    new AboutTraits,
+    new AboutTraits, //
     new AboutPreconditions,
     new AboutHigherOrderFunctions, //
     new AboutUniformAccessPrinciple,
