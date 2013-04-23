@@ -16,7 +16,7 @@ class AboutAsserts extends KoanSuite with ShouldMatchers {
   }
 
   koan("true and false values can be compared with should matchers") {
-    true should be(__) // should be true
+    true should be(true) // should be true
   }
 
   koan("booleans in asserts can test equality") {
