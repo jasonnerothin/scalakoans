@@ -29,7 +29,7 @@ class Koans extends Suite {
     new AboutPreconditions, //
     new AboutHigherOrderFunctions, //
     new AboutUniformAccessPrinciple, //
-    new AboutLiteralBooleans,
+    new AboutLiteralBooleans, //
     new AboutLiteralNumbers, //
     new AboutLiteralStrings,
     new AboutPartialFunctions,
