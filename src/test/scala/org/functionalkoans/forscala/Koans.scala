@@ -28,7 +28,7 @@ class Koans extends Suite {
     new AboutTraits, //
     new AboutPreconditions, //
     new AboutHigherOrderFunctions, //
-    new AboutUniformAccessPrinciple,
+    new AboutUniformAccessPrinciple, //
     new AboutLiteralBooleans,
     new AboutLiteralNumbers, //
     new AboutLiteralStrings,
