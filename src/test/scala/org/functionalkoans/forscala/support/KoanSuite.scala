@@ -1,6 +1,5 @@
 package org.functionalkoans.forscala.support
 
-import org.scalatest.exceptions.TestPendingException
 import org.scalatest.{Tracker, Stopper, Reporter, FunSuite}
 import org.scalatest.matchers.{Matcher, ShouldMatchers}
 import org.scalatest.events.{TestPending, TestFailed, TestIgnored, Event}
@@ -11,8 +10,8 @@ trait KoanSuite extends FunSuite with ShouldMatchers {
 
   def meditate() = pending
 
-  def  __ : Matcher[Nothing] = {
-    throw new TestPendingException
+  def  __ : Matcher[Any] = {
+    throw new IllegalStateException("Implement me.")
   }
 
   protected class ___ extends Exception {

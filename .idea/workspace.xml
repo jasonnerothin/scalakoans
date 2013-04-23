@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40cd2686-fff2-49c0-b698-3bc08d690576" name="Default" comment="" />
+    <list default="true" id="40cd2686-fff2-49c0-b698-3bc08d690576" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/koans.bat" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/support/KoanSuite.scala" afterPath="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/support/KoanSuite.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="scalakoans.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366653548032" ignored="false" />
     <file path="/AboutTraits.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366653687922" ignored="false" />
-    <file path="/AboutAsserts.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366728961571" ignored="false" />
+    <file path="/AboutAsserts.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366733721436" ignored="false" />
     <file path="/AboutIterables.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366654132438" ignored="false" />
     <file path="/Dummy.txt" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366733423752" ignored="false" />
-    <file path="/KoanSuite.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366659051010" ignored="false" />
+    <file path="/KoanSuite.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366734156730" ignored="false" />
     <file path="/AboutLiteralNumbers.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366729035008" ignored="false" />
     <file path="$USER_HOME$/scratch/trunk/MPSModel/src/main/java/com/p1s/mps/util/Constants.java" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366725816732" ignored="false" />
     <file path="/Constants.java" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366725809683" ignored="false" />
@@ -79,32 +83,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.sbt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
+      <file leaf-file-name="AboutAsserts.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutAsserts.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="135" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+            <state line="18" column="20" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutClasses.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutClasses.scala">
+      <file leaf-file-name="KoanSuite.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/support/KoanSuite.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="22" selection-start="356" selection-end="356" vertical-scroll-proportion="0.24046242">
+            <state line="10" column="22" selection-start="376" selection-end="376" vertical-scroll-proportion="0.42477876">
               <folding>
-                <element signature="e#38#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutLiteralNumbers.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutLiteralNumbers.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="20" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#38#82#0" expanded="true" />
+                <element signature="e#46#105#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,10 +133,10 @@
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutLazySequences.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutLists.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/support/KoanSuite.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutAsserts.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutLiteralNumbers.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutClasses.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutAsserts.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/support/KoanSuite.scala" />
       </list>
     </option>
   </component>
@@ -241,6 +234,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dmarsh-scalakoans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dmarsh-scalakoans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -268,18 +275,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forscala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -316,7 +311,7 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.AboutClasses">
+  <component name="RunManager" selected="ScalaTest.AboutAsserts">
     <configuration default="false" name="AboutAsserts" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -536,10 +531,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.AboutClasses" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.AboutLiteralNumbers" />
-        <item index="2" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.AboutAsserts" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.AboutAsserts" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.AboutClasses" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.AboutLiteralNumbers" />
+        <item index="3" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
         <item index="4" class="java.lang.String" itemvalue="ScalaTest.ScalaTests in 'forscala'" />
       </list>
     </recent_temporary>
@@ -623,7 +618,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2470651" sideWeight="0.41097423" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58902574" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.58902574" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -734,25 +729,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/support/KoanSuite.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="458" selection-end="458" vertical-scroll-proportion="-0.79405034">
-          <folding>
-            <element signature="e#46#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/scalatest_2.9.2-1.8.jar!/org/scalatest/matchers/Matchers.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="547" column="6" selection-start="55997" selection-end="55997" vertical-scroll-proportion="9.90534" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="135" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutCaseClasses.scala">
@@ -762,27 +741,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutAsserts.scala">
+    <entry file="file://$PROJECT_DIR$/README-scala.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="56" selection-start="214" selection-end="233" vertical-scroll-proportion="0.11098266">
+        <state line="1" column="0" selection-start="57" selection-end="156" vertical-scroll-proportion="0.01849711">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koans">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="56" selection-start="187" selection-end="187" vertical-scroll-proportion="0.018779343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutClasses.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="23" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.72138727">
+          <folding>
+            <element signature="e#38#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="135" selection-start="581" selection-end="581" vertical-scroll-proportion="0.4069364">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutLiteralNumbers.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+        <state line="8" column="20" selection-start="184" selection-end="184" vertical-scroll-proportion="0.14797688">
           <folding>
             <element signature="e#38#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutClasses.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutAsserts.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="356" selection-end="356" vertical-scroll-proportion="0.24046242">
+        <state line="18" column="20" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib_managed/jars/org.scalatest/scalatest_2.10/scalatest_2.10-1.9.1.jar!/org/scalatest/exceptions/TestPendingException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="26" selection-start="59" selection-end="59" vertical-scroll-proportion="0.050955415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib_managed/jars/org.scalatest/scalatest_2.10/scalatest_2.10-1.9.1.jar!/org/scalatest/events/TestFailed.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.26578072">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/support/KoanSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="376" selection-end="376" vertical-scroll-proportion="0.42477876">
           <folding>
-            <element signature="e#38#62#0" expanded="true" />
+            <element signature="e#46#105#0" expanded="true" />
           </folding>
         </state>
       </provider>
