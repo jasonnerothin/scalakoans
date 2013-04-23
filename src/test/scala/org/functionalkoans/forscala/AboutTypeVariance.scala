@@ -27,7 +27,7 @@ class AboutTypeVariance extends KoanSuite with ShouldMatchers {
         item = a
       }
 
-      def contents = manifest.erasure.getSimpleName
+      def contents = manifest.runtimeClass.getSimpleName
     }
 
     val fruitBasket = new MyContainer(new Orange())
@@ -45,7 +45,7 @@ class AboutTypeVariance extends KoanSuite with ShouldMatchers {
         item = a
       }
 
-      def contents = manifest.erasure.getSimpleName
+      def contents = manifest.runtimeClass.getSimpleName
     }
 
     val fruitBasket = new MyContainer[Fruit](new Orange())
@@ -62,7 +62,7 @@ class AboutTypeVariance extends KoanSuite with ShouldMatchers {
         item = a
       }
 
-      def contents = manifest.erasure.getSimpleName
+      def contents = manifest.runtimeClass.getSimpleName
     }
 
     val fruitBasket: MyContainer[Fruit] = new MyContainer(new Orange())
@@ -72,7 +72,7 @@ class AboutTypeVariance extends KoanSuite with ShouldMatchers {
 // That one probably blew your mind. Now if you assign a type to the instantiation,
 // that's different to the variable type, you'll have problems.  You may want to take time after this
 // o compare this koan with the previous koan to compare and contrast. """) {
-  
+
 
   koan("variable type must match assigned type") {
     class MyContainer[A](a: A)(implicit manifest: scala.reflect.Manifest[A]) {
@@ -84,7 +84,7 @@ class AboutTypeVariance extends KoanSuite with ShouldMatchers {
         item = a
       }
 
-      def contents = manifest.erasure.getSimpleName
+      def contents = manifest.runtimeClass.getSimpleName
     }
 
     // Uncomment the following line
@@ -101,7 +101,7 @@ class AboutTypeVariance extends KoanSuite with ShouldMatchers {
 
       def get = item
 
-      def contents = manifest.erasure.getSimpleName
+      def contents = manifest.runtimeClass.getSimpleName
     }
 
     val fruitBasket: MyContainer[Fruit] = new MyContainer[Orange](new Orange())
@@ -119,7 +119,7 @@ class AboutTypeVariance extends KoanSuite with ShouldMatchers {
 
       def get = item
 
-      def contents = manifest.erasure.getSimpleName
+      def contents = manifest.runtimeClass.getSimpleName
     }
 
     val fruitBasket: MyContainer[Fruit] = new MyContainer[Orange](new Orange())
@@ -130,8 +130,8 @@ class AboutTypeVariance extends KoanSuite with ShouldMatchers {
     //    val tangeloBasket: MyContainer[Tangelo] = new MyContainer[Orange](new Orange()) //Bad!
   }
 
-// Declaring - indicates contravariance variance.  
-// Using - you can apply any container with a certain type to a container with a superclass of that type.  
+// Declaring - indicates contravariance variance.
+// Using - you can apply any container with a certain type to a container with a superclass of that type.
 // This is reverse to covariant.  In our example, we can set a citrus basket to
 // an orange or tangelo basket. Since an orange or tangelo basket is a citrus basket
 
@@ -144,7 +144,7 @@ class AboutTypeVariance extends KoanSuite with ShouldMatchers {
         item = a
       }
 
-      def contents = manifest.erasure.getSimpleName
+      def contents = manifest.runtimeClass.getSimpleName
     }
 
     val citrusBasket: MyContainer[Citrus] = new MyContainer[Citrus](new Orange)
@@ -173,7 +173,7 @@ class AboutTypeVariance extends KoanSuite with ShouldMatchers {
         item = a
       }
 
-      def contents = manifest.erasure.getSimpleName
+      def contents = manifest.runtimeClass.getSimpleName
     }
 
     val citrusBasket: MyContainer[Citrus] = new MyContainer[Citrus](new Orange)
@@ -200,7 +200,7 @@ class AboutTypeVariance extends KoanSuite with ShouldMatchers {
 
       def get = item
 
-      def contents = manifest.erasure.getSimpleName
+      def contents = manifest.runtimeClass.getSimpleName
     }
 
     val citrusBasket: MyContainer[Citrus] = new MyContainer[Citrus](new Orange)
@@ -219,7 +219,7 @@ class AboutTypeVariance extends KoanSuite with ShouldMatchers {
 
       def get = item
 
-      def contents = manifest.erasure.getSimpleName
+      def contents = manifest.runtimeClass.getSimpleName
     }
 
     val citrusBasket: MyContainer[Citrus] = new MyContainer[Citrus](new Orange)
