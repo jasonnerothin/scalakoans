@@ -34,7 +34,7 @@ class Koans extends Suite {
     new AboutLiteralStrings, //
     new AboutPartialFunctions, //
     new AboutPartiallyAppliedFunctions, // really really cool
-    new AboutIterables,
+    new AboutIterables, //
     new AboutTraversables,
     new AboutInfixPrefixAndPostfixOperators,
     new AboutInfixTypes,

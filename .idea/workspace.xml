@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40cd2686-fff2-49c0-b698-3bc08d690576" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutIterables.scala" afterPath="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutIterables.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/Koans.scala" afterPath="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/Koans.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="scalakoans.iws" />
@@ -10,8 +11,8 @@
     <file path="/a.dummy" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366653548032" ignored="false" />
     <file path="/AboutTraits.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366752536508" ignored="false" />
     <file path="/AboutAsserts.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366735179107" ignored="false" />
-    <file path="/AboutIterables.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366654132438" ignored="false" />
-    <file path="/Dummy.txt" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366830539209" ignored="false" />
+    <file path="/AboutIterables.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366831030581" ignored="false" />
+    <file path="/Dummy.txt" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366830568761" ignored="false" />
     <file path="/KoanSuite.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366734156730" ignored="false" />
     <file path="/AboutLiteralNumbers.scala" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366729035008" ignored="false" />
     <file path="$USER_HOME$/scratch/trunk/MPSModel/src/main/java/com/p1s/mps/util/Constants.java" changelist="40cd2686-fff2-49c0-b698-3bc08d690576" time="1366725816732" ignored="false" />
@@ -124,40 +125,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Koans.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Koans.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/Koans.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="20" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0">
+            <state line="36" column="26" selection-start="1091" selection-end="1091" vertical-scroll-proportion="1.2389381">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="misc.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <file leaf-file-name="AboutIterables.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutIterables.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="2000" selection-end="2000" vertical-scroll-proportion="0.0">
+            <state line="5" column="7" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-13.485193">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutTypeSignatures.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutTypeSignatures.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="25" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#38#62#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -181,8 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutPatternMatching.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutOptions.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutSequencesAndArrays.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutNamedAndDefaultArguments.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutParentClasses.scala" />
@@ -196,6 +175,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutPartialFunctions.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutPartiallyAppliedFunctions.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutInteroperability.scala" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutIterables.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/Koans.scala" />
       </list>
     </option>
@@ -371,29 +352,7 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.AboutInteroperability">
-    <configuration default="false" name="AboutLiteralBooleans" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.functionalkoans.forscala.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="scalaCoverage" />
-      <module name="dmarsh-scalakoans" />
-      <setting name="path" value="org.functionalkoans.forscala.AboutLiteralBooleans" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.AboutIterables">
     <configuration default="false" name="AboutLiteralStrings" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -488,6 +447,28 @@
       <extension name="scalaCoverage" />
       <module name="dmarsh-scalakoans" />
       <setting name="path" value="org.functionalkoans.forscala.AboutInteroperability" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AboutIterables" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.functionalkoans.forscala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="scalaCoverage" />
+      <module name="dmarsh-scalakoans" />
+      <setting name="path" value="org.functionalkoans.forscala.AboutIterables" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -614,19 +595,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.AboutLiteralBooleans" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.AboutLiteralStrings" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.AboutPartialFunctions" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.AboutPartiallyAppliedFunctions" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.AboutInteroperability" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.AboutLiteralStrings" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.AboutPartialFunctions" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.AboutPartiallyAppliedFunctions" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.AboutInteroperability" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.AboutIterables" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.AboutInteroperability" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.AboutPartiallyAppliedFunctions" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.AboutPartialFunctions" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.AboutLiteralStrings" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.AboutLiteralBooleans" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.AboutIterables" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.AboutInteroperability" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.AboutPartiallyAppliedFunctions" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.AboutPartialFunctions" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.AboutLiteralStrings" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -826,7 +807,11 @@
       <created>1366830543395</created>
       <updated>1366830543395</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="idea shit">
+      <created>1366830572387</created>
+      <updated>1366830572387</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -904,7 +889,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="interop scala -&gt; java is easy: what about the other way" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea shit" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -918,7 +903,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="functional funness" />
     <MESSAGE value="How very interesting..." />
     <MESSAGE value="Replacing deprecated syntax." />
     <MESSAGE value="val/var yawn" />
@@ -943,6 +927,7 @@
     <MESSAGE value="partial functions are cool" />
     <MESSAGE value="partially-applied functions are even cooler" />
     <MESSAGE value="interop scala -&gt; java is easy: what about the other way" />
+    <MESSAGE value="idea shit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -952,13 +937,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutLiteralStrings.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="7" selection-start="116" selection-end="116" vertical-scroll-proportion="0.09343065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/bin/scala-2.10.0-RC2/src/scala-library-src.jar!/scala/PartialFunction.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="37" selection-start="1912" selection-end="1919" vertical-scroll-proportion="0.0">
@@ -1045,23 +1023,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/Koans.scala">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="20" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.809524">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="2000" selection-end="2000" vertical-scroll-proportion="0.0">
+        <state line="45" column="0" selection-start="2000" selection-end="2000" vertical-scroll-proportion="0.21726191">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/AboutIterables.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-13.485193">
+        <state line="5" column="7" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/Koans.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="26" selection-start="1091" selection-end="1091" vertical-scroll-proportion="1.2389381">
           <folding />
         </state>
       </provider>
