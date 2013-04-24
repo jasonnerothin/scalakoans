@@ -42,8 +42,9 @@ class Koans extends Suite {
     new AboutManifests, //
     new AboutTypeVariance,
     new AboutEnumerations, //
-    new AboutConstructors //
-
+    new AboutConstructors, //
+    new AboutInteroperability, //
+    new AboutLazySequences
   )
 
   override def run(testName: Option[String], reporter: Reporter, stopper: Stopper, filter: Filter,
