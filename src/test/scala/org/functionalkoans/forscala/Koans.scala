@@ -32,7 +32,7 @@ class Koans extends Suite {
     new AboutLiteralBooleans, //
     new AboutLiteralNumbers, //
     new AboutLiteralStrings, //
-    new AboutPartialFunctions,
+    new AboutPartialFunctions, //
     new AboutPartiallyAppliedFunctions,
     new AboutIterables,
     new AboutTraversables,
