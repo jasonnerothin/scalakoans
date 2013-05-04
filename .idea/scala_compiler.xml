@@ -4,6 +4,9 @@
     <option name="SCALAC_BEFORE" value="false" />
     <option name="COMPILER_LIBRARY_NAME" value="scala-compiler" />
     <option name="COMPILER_LIBRARY_LEVEL" value="Global" />
+    <option name="INTERNAL_SERVER" value="false" />
+    <option name="REMOTE_HOST" value="localhost" />
+    <option name="REMOTE_PORT" value="2113" />
   </component>
 </project>
 

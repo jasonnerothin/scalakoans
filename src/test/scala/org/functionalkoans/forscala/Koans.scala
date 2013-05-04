@@ -35,7 +35,7 @@ class Koans extends Suite {
     new AboutPartialFunctions, //
     new AboutPartiallyAppliedFunctions, // really really cool
     new AboutIterables, //
-    new AboutTraversables,
+    new AboutTraversables, // so THAT's why everyone loves scala "collections"
     new AboutInfixPrefixAndPostfixOperators,
     new AboutInfixTypes,
     new AboutImplicits,
