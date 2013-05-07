@@ -5,3 +5,4 @@ lib_managed
 *.iml
 *.ipr
 out
+lib
