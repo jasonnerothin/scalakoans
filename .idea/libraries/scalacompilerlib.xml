@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="scalacompilerlib">
+    <CLASSES>
+      <root url="file://$USER_HOME$/bin/scalahome/scalacompilerlib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/bin/scalahome/scalacompilerlib" recursive="false" />
+  </library>
+</component>
