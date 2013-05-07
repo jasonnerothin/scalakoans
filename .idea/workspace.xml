@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40cd2686-fff2-49c0-b698-3bc08d690576" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/scalacompilerlib.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmarsh-scalakoans.iml" afterPath="$PROJECT_DIR$/dmarsh-scalakoans.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="scalakoans.iws" />
@@ -245,7 +243,7 @@
       <file leaf-file-name="Koans.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/Koans.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="34" selection-start="646" selection-end="646" vertical-scroll-proportion="0.51386863">
+            <state line="19" column="50" selection-start="486" selection-end="486" vertical-scroll-proportion="0.018978102">
               <folding />
             </state>
           </provider>
@@ -1165,7 +1163,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/org/functionalkoans/forscala/Koans.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="646" selection-end="646" vertical-scroll-proportion="0.51386863">
+        <state line="19" column="50" selection-start="486" selection-end="486" vertical-scroll-proportion="0.018978102">
           <folding />
         </state>
       </provider>

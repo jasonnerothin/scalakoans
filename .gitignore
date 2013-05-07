@@ -1,9 +1,6 @@
 *.class
 target
 lib_managed
-.idea
-*.iml
-*.ipr
 out
 lib
 *.log
